@@ -1,0 +1,73 @@
+{
+    "name": "{{Name}}",
+    "type": "creature",
+    "img": "systems/arcane-arcade-fallout/assets/vaultboy/ranged-weapon-icon.webp",
+    "system": {
+      "descriptiontype": "{{descriptiontype}}",
+      "armorClass": {
+        "value": "{{armorClass}}"
+      },
+      "damageThreshold": { "value": "{{damageThreshold}}" },
+      "staminaPoints": { "value": "{{staminaPoints}}" },
+      "hitPoints": { "value": "{{hitPoints}}" },
+      "abilities": {
+        "STR": { "score": "{{str}}", "modifier": "{{strMod}}" },
+        "PER": { "score": "{{per}}", "modifier": "{{perMod}}" },
+        "END": { "score": "{{end}}", "modifier": "{{endMod}}" },
+        "CHA": { "score": "{{cha}}", "modifier": "{{chaMod}}" },
+        "INT": { "score": "{{int}}", "modifier": "{{intMod}}" },
+        "AGI": { "score": "{{agi}}", "modifier": "{{agiMod}}" },
+        "LCK": { "score": "{{luck}}", "modifier": "{{luckMod}}" }
+      },
+      "damageResistances": { "value": "{{damageResistances}}" },
+      "conditionImmunities": { "value": "{{conditionImmunities}}" },
+      "skills": { "value": "{{skills}}" },
+      "senses": { "value": "{{senses}}" },
+      "healingRate": { "value": "{{healingRate}}" },
+      "specialAbilities": [
+        {
+          "name": "{{specialAbilitiesName}}",
+          "description": "{{specialAbilitiesDescription}}"
+        }
+      ],
+      "loot": {
+        "1": "{{loot1}}",
+        "2": "{{loot2}}",
+        "3": "{{loot3}}",
+        "4": "{{loot4}}",
+        "5": "{{loot5}}",
+        "6": "{{loot6}}"
+      },
+      "actionPoints": { "value": "{{actionPoints}}" },
+      "attacks": {
+        {
+           "attackname": "{{attackname}}",
+           "attackDescription": "{{attackDescription}}",
+           "toHit": "{{toHit}}",
+           "damage": "{{damage}}",
+           "apcost": "{{apcost}}"
+          }
+      }
+      
+    },
+    "effects": [],
+    "folder": null,
+    "flags": {
+      "core": {},
+      "exportSource": {
+        "world": "fallout-ttrpg",
+        "system": "arcane-arcade-fallout",
+        "coreVersion": "11.315",
+        "systemVersion": "1.0.0"
+      }
+    },
+    "_stats": {
+      "systemId": "arcane-arcade-fallout",
+      "systemVersion": "1.0.0",
+      "coreVersion": "11.315",
+      "createdTime": 1715545202005,
+      "modifiedTime": 1715545288910,
+      "lastModifiedBy": "gzYpjX3Fqlrk2eh5"
+    }
+  }
+  
